@@ -1,5 +1,4 @@
-DEPLOY LINK - https://mern-public-blog.vercel.app/
-
+https://my-blog-using-mern-stack.vercel.app/
 
 .........................
 FRONTEND - VERCEL
