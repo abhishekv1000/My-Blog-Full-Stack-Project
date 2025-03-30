@@ -1,0 +1,193 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #0E1428;
+}
+/* Navbar Styles */
+.navbar {
+  background-color: #1F2936;
+}
+
+.btn_sign {
+  color: white;
+  background-color: rgb(251, 49, 204);
+  margin-right: 50px;
+  width: 80px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+/* Hero Section */
+.hero-section {
+  position: relative;
+  padding: 150px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+  background-size: cover;
+  background-position: center;
+  color: white;
+
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Adjust the value to control brightness */
+  z-index: 1;
+}
+
+.hero-section h1,
+.hero-section p {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+
+
+/* Prfoile page css  */
+body {
+  background-color: #0E1428;
+  font-family: 'Arial', sans-serif;
+}
+
+.profile-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #1A202C;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+}
+
+.profile-title {
+  color: #E2E8F0;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image-section {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.profile-image-label {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #4A5568;
+}
+
+.profile-placeholder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #2D3748;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #4A5568;
+}
+
+.profile-icon {
+  color: #A0AEC0;
+  font-size: 40px;
+}
+
+.profile-camera-icon {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: #4A5568;
+  color: #E2E8F0;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.profile-image-input {
+  display: none;
+}
+
+.input-group {
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #A0AEC0;
+}
+
+.profile-input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  background-color: #2D3748;
+  color: #E2E8F0;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.profile-input::placeholder {
+  color: #A0AEC0;
+}
+
+.profile-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3182CE;
+  color: #E2E8F0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.profile-button:hover {
+  background-color: #2B6CB0;
+}
